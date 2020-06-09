@@ -1,1 +1,120 @@
+#menu {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  border-bottom: 2px solid black;
+}
 
+nav ul {
+	margin: 0px;
+	padding: -100px 0px 5px 30px;}
+
+nav li {
+	display: inline;
+	margin-right: 50px;
+}
+
+nav li a {
+  color: black;
+}
+
+.center{
+  text-align: center;
+}
+
+
+
+#header {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0px 0px 30px;
+  border-bottom: 2px solid black;
+}
+
+.center{
+  text-align: center;
+}
+
+
+h1 {
+	font-size: 400%;
+	color: black;
+}
+
+section.head h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 10px;
+  text-align: right;
+  color: grey;
+  font-size: 200%;
+}
+
+section.head h3 {
+	margin: 10px 0px 5px 0px;
+	padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 170%;
+}
+
+
+
+#content {
+  max-width: 700px;
+  margin: 0 auto;
+  float: right;
+}
+
+section.purpose p {
+  padding: 400px 100px 10px 150px;
+  color: black;
+  }
+
+section.search {
+  padding: 30px 200px 300px 100px;
+  float: right;
+  width: 400px;
+  border-right: 1px;
+}
+
+section.search p {
+  margin: 20px 0px 0 0px;
+  text-align: right;
+}
+
+section.search input {
+  width: 18em;
+}
+
+img {
+  display: block;
+  padding: 300px 200px 50px 100px;
+  margin: 0px;
+  float: right;
+  width: 250px;
+  height: 200px;
+}
+
+
+
+#programList {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 0px 0px 75px;
+  float: left;
+  text-align: center;
+}
+
+h2 {
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+p {
+  color: grey;
+}
