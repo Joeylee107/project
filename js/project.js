@@ -64,3 +64,20 @@ const PROGRAMS = [
  $(document).ready(function(){
  	displayPrograms(PROGRAMS);
  });
+
+
+
+function search() {
+ 	let query = $("#searchText").val();
+
+ 	query = query.toLowerCase().trim();
+  let matches = [];
+
+  for(let program of PROGRAMS) {
+ 				let programTitle = program.program_title.toLowerCase();
+ 				if(programTitle.includes(query)) {
+ 					matches.push(program);
+ 				}
+ 			}
+ 	displayPrograms(matches);
+ }
